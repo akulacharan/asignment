@@ -1,3 +1,4 @@
+// challenge1: hnow your age
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -52,4 +53,11 @@ function reset(){
     document.getElementById('ageInDays').remove();
     }
 
-console.log(leap);
+
+// challenge2:Cat Generator
+function generateCat(){
+    var image=document.createElement('img');
+    var div=document.getElementById('flex-cat-gen');
+    image.src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small";
+    div.appendChild(image);
+    }
