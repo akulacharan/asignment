@@ -85,9 +85,9 @@ function numberToChoice(number){
 
 function decideWinner(yourChoice,computerChoice){
     var rpsDatabase={
-        'rock':{'scissors':1,'rock':0.5,'paper':0},
+        'rock':{'paper':1,'rock':0.5,'scissors':0},
         'paper':{'rock':1,'paper':0.5,'scissors':0},
-        'scissors':{'paper':1,'scissors':0.5,'rock':0}
+        'scissors':{'rock':1,'scissors':0.5,'paper':0}
     };
     var yourScore=rpsDatabase[yourChoice][computerChoice];
     var computerScore=rpsDatabase[computerChoice][yourChoice];
