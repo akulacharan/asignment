@@ -42,7 +42,7 @@ function ageInDays(){
     secs=minutes*60;
 
     var h1=document.createElement('h1');
-    var textAnswer=document.createTextNode(' You are  '+(leap+ageInDays+mdays+Ddays)+' days.\n '+(hours)+'Hours.\n '+(minutes)+'Minutes '+(secs)+' Seconds old Approximately.');
+    var textAnswer=document.createTextNode(' You are  '+(leap+ageInDays+mdays+Ddays)+' days && '+(hours)+'Hours && '+(minutes)+'Minutes && '+(secs)+' Seconds old Approximately.');
     h1.setAttribute('id','ageInDays');
     h1.appendChild(textAnswer);
     document.getElementById('flex-box-result').appendChild(h1);
