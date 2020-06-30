@@ -2,7 +2,7 @@
   border:2px solid black;
   text-align:center;
   margin:0 auto;
-  width: 99%;
+  width: 80%;
  }
 .flex-box-container-1,.flex-box-container-2,.flex-box-rps,.flex-box-pick-color,.flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3{
   display:flex;
