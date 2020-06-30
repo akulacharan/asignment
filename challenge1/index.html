@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRORbjwGocvganrBPGkCfEuvWF0dASE42EiAw&usqp=CAU">
+<body background="https://cdn.shopify.com/s/files/1/0062/8149/4639/products/2112-60-cementgray_2000x.png?v=1571716917">
 <div class="container-1">
     <h2>Know Your Age In Days: &#128522</h2>
     <div class="flex-box-container-1">
@@ -24,7 +24,7 @@
     </div>
 </div>
 <div class="container-2">
-    <h2>Cat Generator:	&#128521</h2>
+    <h2>Cat Generator:😼</h2>
     <button class="btn btn-success" id="cat-generator" onclick="generateCat()">Generate Cat</button>
     <div class="flex-box-container-2" id="flex-cat-gen">
     </div>
@@ -48,12 +48,52 @@
                 <option value="reset">Reset</option>
             </select>
         </form>
-        <button class="btn btn-primary">Wee!</button>
-        <button class="btn btn-danger">Yahoo!</button>
-        <button class="btn btn-warning">Google</button>
-        <button class="btn btn-success">Facebook</button>
+        <button class="btn btn-primary" onclick="location.href='https://www.instagram.com/?hl=en'">Instagram!</button>
+        <button class="btn btn-danger" onclick="location.href='https://in.yahoo.com/'">Yahoo!</button>
+        <button class="btn btn-warning" onclick="location.href='https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwirvqH29aPqAhXixzgGHUGmAH0QPAgH'">Google!</button>
+        <button class="btn btn-success" onclick="location.href='https://www.facebook.com/'">Facebook!</button>
     </div>
 </div>
+<div class="container-5">
+    <h2>Blackjack Game: &#x2660;</h2>
+    <h3><span id="blackjack-result">Let's play</span></h3>
+    <div class="flex-blackjack-row-1">
+        <div id="your-box">
+            <h2>You:<span id="your-blackjack-result">0</span></h2>
+        </div>
+         <div id="dealer-box">
+            <h2>Dealer:<span id="dealer-blackjack-result">0</span></h2>
+        </div>
+    </div>
+    <div class="flex-blackjack-row-2">
+        <div>
+            <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+            <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button">Stand</button>
+            <button class="btn-lg btn-danger" id="blackjack-deal-button">Deal</button>
+        </div>
+    </div>
+    <div class="flex-blackjack-row-3">
+        <table class="table table-dark">
+            <tr>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Draws</th>
+            </tr>
+
+            <tr>
+                <td><span id="wins">0</span></td>
+                <td><span id="losses">0</span></td>
+                <td><span id="draws">0</span></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!--<div class="container-6">
+    <h2>Ajax challenge</h2>
+    <div class="flex-ajax-row-1">
+    </div>
+</div>-->
+
 <script src="js/code.js"></script>
 </body>
 </html>
